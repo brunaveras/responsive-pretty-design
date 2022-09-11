@@ -9,14 +9,12 @@ if(navToggle){
         navMenu.classList.add('show-menu')
     })
 }
-
 /*===== ESCONDER MENU =====*/
 if(navClose){
     navClose.addEventListener('click', () =>{
         navMenu.classList.remove('show-menu')
     })
 }
-
 /*===== REMOVER MENU MOBILE =====*/
 const navLink = document.querySelectorAll('.nav__link')
 
